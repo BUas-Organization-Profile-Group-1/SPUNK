@@ -25,11 +25,17 @@ header {
 .carousel{
 	margin-bottom: 3em;
 }
+.carousel-item>img{
+	height: 980px;
+}
 
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
+}
+footer{
+	background-color: #17BEBB;
 }
 
 /* Corporate navbar */
