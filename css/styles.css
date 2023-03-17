@@ -24,8 +24,11 @@ header {
 }
 .carousel{
 	margin-bottom: 3em;
+	height:auto;
 }
-
+.carousel-inner{
+	height: auto;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
