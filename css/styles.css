@@ -11,6 +11,9 @@ body {
 	background-color: #fffcf8;
 }
 
+h1 h2 h3 h4 h5 h6 p{
+	font-family: "montserrat"
+}
 /* Changing the background colour for the header */
 
 header {
@@ -45,6 +48,13 @@ footer{
 	font-weight: bold;
 }
 
+.bg-violet{
+	background-color: #8C5B86
+}
+.bg-amber{
+	background-color: #FF8600;
+}
+
 /*TEAM SECTION*/
 #team {
     background: #eee !important;
@@ -60,8 +70,8 @@ footer{
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color: #17bebb;
+    border-color: #17bebb;
 }
 
 section {
@@ -70,7 +80,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #17bebb;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -159,12 +169,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #17bebb !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #17bebb !important;
 }
 
 .frontside .card .card-body img {
@@ -173,7 +183,20 @@ section .section-title {
     border-radius: 50%;
 }
 
+.container-team{
+	width: 90%;
+	margin: auto;
+}
 
+.container-team-top{
+	width: 85%;
+	margin:auto;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+}
 
 
 /*
