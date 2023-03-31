@@ -25,6 +25,15 @@ header {
 .card{
 	height: auto;
 }
+.zindex-10{
+	z-index: 10;
+}
+.zindex-20{
+	z-index: 20;
+}
+.zindex-30{
+	z-index: 30;
+}
 /* Changing the background color for the navigation bar */
 
 .navbar {
@@ -46,7 +55,6 @@ footer a:hover {
 footer{
 	background-color: #17BEBB;
 }
-
 /* Corporate navbar */
 
 #navbar-corporate a.active {
