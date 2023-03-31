@@ -8,11 +8,14 @@
 
 body {
 	font-family: Montserrat, sans-serif;
-	background-color: #ff8600;
+	background-color: #17BEBB;
 }
 
 h1 h2 h3 h4 h5 h6 p{
 	font-family: "montserrat";
+}
+h1{
+	color: white;
 }
 /* Changing the background colour for the header */
 
@@ -23,7 +26,8 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #17BEBB;
+	background: rgb(255,134,0);
+background: linear-gradient(90deg, rgba(255,134,0,1) 0%, rgba(255,134,0,1) 33%, rgba(23,190,187,1) 60%);
 }
 .carousel{
 	margin-bottom: 3em;
@@ -57,9 +61,10 @@ footer{
 .container-values{
 	width: 85%;
 }
+/*
 .card-cyan{
-	background-color: #17bebb;
-	border-color: #8c5b86;
+	background-color: #ffffff;
+	border-color: #ff8600;
 	border-width: thick;
 	border-style:solid;
 	margin-bottom: 2em;
@@ -71,10 +76,15 @@ footer{
 	border-style:solid;
 	margin-bottom: 2em;
 }
-
-/*TEAM SECTION*/
+.card-values-bordertop{
+	border-top: solid;
+	border-width: thick;
+	border-color: #ff8600;
+}
+*/
+/*TEAM (VALUE) SECTION*/
 #team {
-    background: #eee !important;
+    background: #17bebb !important;
 }
 
 .btn-primary:hover,
@@ -203,18 +213,22 @@ section .section-title {
 .container-team{
 	width: 90%;
 	margin: auto;
+	background-color: #17bebb;
 }
 
 .container-team-top{
-	width: 85%;
+	width: 78%;
 	margin:auto;
+	background-color: #17bebb;
 }
 
 .vertical-center {
   position: relative;
   top: 50%;
 }
-
+.team{
+	background-color: #17bebb;
+}
 
 /*
 COLOR CODES:
