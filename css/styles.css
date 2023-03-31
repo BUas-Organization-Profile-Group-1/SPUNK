@@ -22,7 +22,9 @@ h1{
 header {
 	background-color: #17bebb;
 }
-
+.card{
+	height: auto;
+}
 /* Changing the background color for the navigation bar */
 
 .navbar {
