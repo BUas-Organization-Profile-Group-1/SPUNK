@@ -240,6 +240,10 @@ section .section-title {
 	background-color: #17bebb;
 }
 
+.instagram-feed{
+	width: 80%;
+	margin:auto;
+}
 /*
 COLOR CODES:
 #17BEBB - CYAN
