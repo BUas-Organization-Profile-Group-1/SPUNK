@@ -22,6 +22,14 @@ h1{
 header {
 	background-color: #17bebb;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.btn-primary:hover{
+	background-color: #ff8600 !important;
+}
 .card{
 	height: auto;
 }
@@ -35,7 +43,10 @@ header {
 	z-index: 30;
 }
 /* Changing the background color for the navigation bar */
-
+.navbar a{
+	font-weight: bolder;
+	color: white;
+}
 .navbar {
 	background: rgb(255,134,0);
 background: linear-gradient(90deg, rgba(255,134,0,1) 0%, rgba(255,134,0,1) 33%, rgba(23,190,187,1) 60%);
@@ -127,99 +138,6 @@ section .section-title {
     background: #ffffff;
 }
 
-.image-flip:hover .backside,
-.image-flip.hover .backside {
-    webkit-transform: rotateY(0deg);
-    moz-transform: rotateY(0deg);
-    o-transform: rotateY(0deg);
-    ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    border-radius: .25rem;
-}
-
-.image-flip:hover .frontside,
-.image-flip.hover .frontside {
-    webkit-transform: rotateY(180deg);
-    moz-transform: rotateY(180deg);
-    o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.mainflip {
-    webkit-transition: 1s;
-    webkit-transform-style: preserve-3d;
-    ms-transition: 1s;
-    moz-transition: 1s;
-    moz-transform: perspective(1000px);
-    moz-transform-style: preserve-3d;
-    ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.frontside {
-    position: relative;
-    webkit-transform: rotateY(0deg);
-    ms-transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 30px;
-}
-
-.backside {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: white;
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
-
-.frontside,
-.backside {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transition: 1s;
-    -moz-transform-style: preserve-3d;
-    -o-transition: 1s;
-    -o-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card {
-    min-height: 312px;
-}
-
-.backside .card a {
-    font-size: 18px;
-    color: #17bebb !important;
-}
-
-.frontside .card .card-title,
-.backside .card .card-title {
-    color: #17bebb !important;
-}
-
-.frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
-
 .container-team{
 	width: 90%;
 	margin: auto;
@@ -244,6 +162,80 @@ section .section-title {
 	width: 80%;
 	margin:auto;
 }
+
+
+
+/* Modal FROM HERE */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10em; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ff8600;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #ff8600;
+    color: white;
+}
+
 /*
 COLOR CODES:
 #17BEBB - CYAN

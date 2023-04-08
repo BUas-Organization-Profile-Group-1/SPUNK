@@ -9,14 +9,23 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
-
+	
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-    <title>PRJ4 - Products</title>
-
+	<script defer src="script.js"></script>
+	  
+    <title>VALOROUS Products &amp; Funding</title>
+	<link rel="shortcut icon" href="images/general/favicon.png" type="image/png">
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7YHLYJ0FTS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-7YHLYJ0FTS');
+</script>
     <!-- End of Google Analytics code -->
 
   </head>
@@ -25,8 +34,8 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/general/logo-square.png" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/general/logo-square.png" width="40" alt="valorous logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,20 +46,24 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+              <a class="nav-link active" aria-current="page" href="products.html">Products &amp; Funding</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="funding.html" >Funding Tiers</a>
-				<li class="nav-item dropdown">
+              <a class="nav-link" href="socialmedia.html" >Social Media</a>
+<!--				<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About us
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="team.html">Team &amp; Contact</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="styleguide.html">Style Guide</a></li>
+                <li><a class="dropdown-item" href="socialmedia.html">Social Media</a></li>
 
               </ul>
+			</li>
+-->          
+			<li class="nav-item">
+              <a class="nav-link" aria-current="page" href="team.html">Team &amp; Contact</a>
             </li>
             </li>
             <li class="nav-item">
@@ -60,15 +73,54 @@
         </div>
       </div>
     </nav>
-	  
-	<main class="h-100">
-		<div class="container vertical-center">
-			<h1 class="text-center" style="font-size: 80px"><strong>Coming Soon!</strong></h1>
-		</div>		
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-amber text-light">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto py-5">
+          <h1 class="display-1">SafeLink</h1>
+			<h1 class="display-5">by Valorous</h1>
+          <p class="lead">The bracelet that brings relief to your life!</p>
+          <p class="mt-5">
+            <a href="#funding" class="btn btn-lg btn-primary m-1 d-block d-sm-inline">Support us now!</a>
+<!--            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Another call to action</a>		-->
+          </p>
+        </div>
+      </div>
+    </header>	  
+	<main class="">
+<div class="container col-xxl-8 px-4 py-5 container-product">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/product/bracelet1.jpg" class="d-block mx-lg-auto img-fluid rounded-3" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">The bracelet that brings relief</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis recusandae id nemo cum earum, a quos placeat quo, sapiente distinctio laborum pariatur magnam blanditiis aliquid neque. Reprehenderit dolor ab temporibus excepturi assumenda vitae voluptatum, non quia amet libero sunt tempora saepe quam unde natus recusandae asperiores sit deserunt expedita ad veniam id tempore. Error laborum id amet quibusdam sequi sunt, nisi? Consequatur rerum nam animi, porro esse praesentium quod, omnis fugiat sint tenetur saepe vero et! Soluta facere, suscipit!</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-center">
+			<button type="button" onClick="window.location.href='https://www.gofundme.com';" class="btn btn-secondary btn-lg px-4 me-md-2 w-100 bg-amber">Primary</button>
+<!--          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>		-->
+        </div>
+      </div>
+    </div>
+  </div>
+		
+<section id="funding">
+		
+<p>FUND US</p>
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_telegram"></a>
+<a class="a2a_button_facebook_messenger"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+</section>		
+		
 	</main>  
-	
-	
-	
 	
     <footer class="shadow-lg mt-auto py-4">
       <div class="container d-flex justify-content-between align-items-center">
@@ -76,6 +128,7 @@
           © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
+			<!--
           <li>
             <a href="https://www.facebook.com/bredauniversityas" target="_blank">
               <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
@@ -96,8 +149,9 @@
               <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
             </a>
           </li>
+			-->
           <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
+            <a href="https://www.instagram.com/official_valorous/" target="_blank">
               <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
             </a>
           </li>
