@@ -30,6 +30,15 @@ header {
 .btn-primary:hover{
 	background-color: #ff8600 !important;
 }
+.btn-secondary:hover{
+	background-color: #17bebb !important;
+}.container-product{
+	background-color: #ff8600;
+	border-radius: 20px;
+}
+.container-product h1{
+
+}
 .card{
 	height: auto;
 }
@@ -80,7 +89,7 @@ footer{
 	background-color: #FF8600;
 }
 .container-values{
-	width: 85%;
+	width: 80%;
 }
 /*
 .card-cyan{
@@ -170,7 +179,7 @@ section .section-title {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 10000; /* Sit on top */
     padding-top: 10em; /* Location of the box */
     left: 0;
     top: 0;
