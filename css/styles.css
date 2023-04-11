@@ -23,6 +23,10 @@ header {
 	background-color: #17bebb;
 }
 
+.btn-huge{
+	
+}
+
 .responsive {
   width: 100%;
   height: auto;
@@ -30,9 +34,17 @@ header {
 .btn-primary:hover{
 	background-color: #ff8600 !important;
 }
+.btn-secondary{
+	background-color: #ff8600;
+}
 .btn-secondary:hover{
-	background-color: #17bebb !important;
-}.container-product{
+	background-color: white !important;
+	color: #ff8600;
+}
+.btn-call{
+	font-size: 3rem;
+}
+.container-product{
 	background-color: #ff8600;
 	border-radius: 20px;
 }
