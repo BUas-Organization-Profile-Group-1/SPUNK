@@ -18,7 +18,9 @@ h1{
 	color: white;
 }
 /* Changing the background colour for the header */
-
+p{
+	font-weight: 400!important;
+}
 header {
 	background-color: #17bebb;
 }
