@@ -77,7 +77,7 @@ header {
 }
 .navbar {
 	background: rgb(255,134,0);
-background: linear-gradient(90deg, rgba(255,134,0,1) 0%, rgba(255,134,0,1) 33%, rgba(23,190,187,1) 60%);
+/*background: linear-gradient(90deg, rgba(255,134,0,1) 0%, rgba(255,134,0,1) 33%, rgba(23,190,187,1) 60%);		*/
 }
 .carousel{
 	margin-bottom: 3em;
