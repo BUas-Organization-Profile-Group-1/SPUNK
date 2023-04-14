@@ -19,7 +19,10 @@ h1{
 }
 /* Changing the background colour for the header */
 p{
-	font-weight: 400!important;
+	font-weight: 500!important;
+}
+h3{
+	font-weight: 600!important;
 }
 header {
 	background-color: #17bebb;
